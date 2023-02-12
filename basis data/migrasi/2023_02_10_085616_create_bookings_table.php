@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('jen_kmr', 100);
             $table->string('no_hp', 100);
             $table->string('jmlh', 20);
-            $table->string('foto', 20);
             $table->timestamps();
         });
     }
